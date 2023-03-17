@@ -12,6 +12,6 @@ int main()
         rev = (rev*10) + (temp%10);
         temp /= 10;  
     }
-    cout<<rev;
+    cout<<"Reverse of "<<num<<" = "<<rev;
 
 }
